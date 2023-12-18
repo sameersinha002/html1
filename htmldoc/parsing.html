@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2>Creating an object from a JASON String</h2>
+
+        <p id="demo"></p>
+        <script>
+    const txt = '{"name""KIET MCA","age"30,"city"GHAZIBAD}'
+    const obj =JSON.parse(txt);//converting JSON strings into Javascript objects
+    document.getElementBy("demo").innerHTML = obj.name+","+obj.age
+        </script>
+    </body>
+</html>

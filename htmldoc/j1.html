@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2>JavaSricpt Error Handling</h2>
+
+
+        <p id="demo"></p>
+        <script>
+            try{
+                addlert("Welcome guest!");// not defined function
+                        }
+                        catch(err){
+                            document.getElementById("demo").innerHTML=err.message
+                        }
+        </script>
+    </body>
+</html>
